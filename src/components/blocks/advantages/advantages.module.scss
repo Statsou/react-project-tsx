@@ -1,0 +1,45 @@
+.advantages {
+  max-width: 1268px;
+  padding: 60px 86px 85px;
+  margin: 0 auto;
+}
+
+.advantages__main-title {
+  padding: 0 15px 0 0;
+  margin: 0 0 50px;
+}
+
+.advantages__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.advantages__item {
+  &:not(:last-child) {
+    margin-right: 56px;
+  }
+}
+
+.advantages__content {
+  text-align: start;
+  max-width: 270px;
+
+  & figure {
+    margin: 0 0 10px;
+    padding: 0;
+  }
+}
+
+.advantages__title {
+  margin: 0 0 8px;
+}
+
+.advantages__description {
+  line-height: 23px;
+  letter-spacing: -0.9px;
+
+  padding: 0;
+  margin: 0;
+}

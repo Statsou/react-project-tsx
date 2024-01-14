@@ -1,0 +1,32 @@
+.subscribe {
+  padding: 52px 74px 65px 93px;
+  background-color: #F9F9F9;
+}
+.subscribe__content {
+  max-width: 1273px;
+  padding: 69px 0 54px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+
+.subscribe__title {
+  margin: 0 0 15px;
+}
+
+.subscribe__description {
+  line-height: 24px;
+  width: 470px;
+  padding: 0;
+  margin: 0 auto 72px;
+}
+
+.subscribe__under-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+
+// Стили инпута к инпуту
+.subscribe__input {
+  width: 289px;
+}

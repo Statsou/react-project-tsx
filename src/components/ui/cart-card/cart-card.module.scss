@@ -1,0 +1,54 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__content {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  width: 329px;
+
+  column-gap: 21px;
+}
+
+.card__image {
+  padding: 0;
+  margin: 0;
+
+  grid-row: span 3;
+  border: none;
+  max-height: 134px;
+}
+
+.card__title {
+  margin: 10px 0 0;
+}
+
+.card__description {
+  font-size: 14px;
+  line-height: 21px;
+
+  max-width: 235px;
+  padding: 0;
+  margin: 0;
+}
+
+.card__price {
+  line-height: 24px;
+}
+
+.card__quantity {
+  position: relative;
+  left: 143px;
+
+  padding: 13px 0;
+}
+
+.card__total-price {
+  font-size: 18px;
+  line-height: 27px;
+
+  width: 245px;
+  padding: 13px 7px;
+  text-align: right;
+}

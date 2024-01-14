@@ -1,0 +1,32 @@
+.navigation-user__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-user__item {
+  list-style-type: none;
+}
+
+.navigation-user__button {
+  position: relative;
+  padding: 6px 8px;
+}
+
+.navigation-user__count {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  font-size: 10px;
+  line-height: 15px;
+  color: #FFFFFF;
+
+  display: flex;
+  justify-content: center;
+  max-width: 4px;
+  padding: 0 6px;
+
+  background-color: #1E193E;
+   border-radius: 50%;
+}

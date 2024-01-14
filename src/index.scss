@@ -1,0 +1,82 @@
+@import "./variables.scss";
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Satoshi";
+
+  font-display: swap;
+  src: url("/fonts/satoshi-regular-400.woff2") format("woff2"), url("/fonts/satoshi-regular-400.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Clash";
+
+  font-display: swap;
+  src: url("/fonts/clash-display-regular-400.woff2") format("woff2"), url("/fonts/clash-display-regular-400.woff") format("woff");
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  font-family: $font-family;
+  font-size: $font-size-default;
+  line-height: 27px;
+  font-weight: 400;
+  color: $color-dark-blue;
+
+  margin: 0 auto;
+  text-align: center;
+
+  background-color: $color-white;
+}
+
+html {
+  height: 100%;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+body {
+  position: relative;
+}
+
+main {
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+  &:focus-visible ~ * {
+    outline: 1px solid #000000;
+  }
+}
+

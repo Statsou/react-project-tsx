@@ -1,0 +1,19 @@
+.advantages-card__content {
+  text-align: start;
+  max-width: 270px;
+
+  & figure {
+    margin: 0 0 10px;
+    padding: 0;
+  }
+}
+
+.advantages-card__title {
+  margin: 0 0 8px;
+}
+
+.advantages-card__description {
+  line-height: 23px;
+  padding: 0;
+  margin: 0;
+}

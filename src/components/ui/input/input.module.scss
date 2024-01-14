@@ -1,0 +1,30 @@
+.input {
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+
+  padding: 22px 32px 18px;
+
+  background-color: #FFFFFF26;
+  border: none;
+
+  &::placeholder {
+    font-family: "Satoshi", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+}
+
+.grey {
+  color: #2A254B;
+  background-color: #F9F9F9;
+
+  &::placeholder {
+    color: #d4d4db;
+  }
+}
+
+.error {
+  border-color: red;
+}

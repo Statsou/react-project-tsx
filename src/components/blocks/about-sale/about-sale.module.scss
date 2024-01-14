@@ -1,0 +1,47 @@
+.about-sale {
+  display: grid;
+  grid-template-columns: 634px 1fr;
+  max-width: 1440px;
+  padding: 60px 80px;
+  margin: 0 auto;
+
+  gap: 16px;
+}
+
+.about-sale__description {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 75px 54px 64px;
+  text-align: start;
+
+  background-color: #2A254B;
+}
+
+.about-sale__title {
+  line-height: 40px;
+  color: #FFFFFF;
+  margin: 0 0 10px;
+}
+
+.about-sale__text {
+  line-height: 25px;
+  color: #FFFFFF;
+  letter-spacing: 0.9px;
+
+  padding: 0;
+  margin: 0;
+}
+
+.about-sale__button {
+  display: inline-block;
+  margin-top: auto;
+  width: fit-content;
+}
+
+.about-sale__image {
+  padding: 0;
+  margin: 0;
+  max-height: 478px;
+
+  border: none;
+}

@@ -1,0 +1,17 @@
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  max-width: 1184px;
+  padding: 91px 128px 88px;
+  margin: 0 auto;
+}
+
+.about-header__title {
+  margin: 0;
+  max-width: 704px;
+}
+
+.about-header__button {
+  height: fit-content;
+}

@@ -1,0 +1,44 @@
+.about-design {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1440px;
+  margin: 0 auto 21px;
+}
+
+.about-design__description {
+  display: flex;
+  flex-direction: column;
+  min-height: 477px;
+  padding: 72px 100px 54px 84px;
+  text-align: start;
+}
+
+.about-design__title {
+  padding-right: 20px;
+  margin: 0 0 23px;
+}
+
+.about-design__text {
+  line-height: 23px;
+
+  padding: 0;
+  margin: 0;
+
+  &:not(:last-child) {
+    margin: 0 0 20px;
+  }
+}
+
+.about-design__button {
+  display: inline-block;
+  margin-top: auto;
+  width: fit-content;
+}
+
+.about-design__image {
+  padding: 0;
+  margin: 0;
+  max-height: 478px;
+
+  border: none;
+}

@@ -1,0 +1,65 @@
+.counter {
+  position: relative;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+}
+
+.counter__input {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 21px;
+
+  width: 34px;
+  padding: 12px 44px 12px 42px;
+  text-align: center;
+
+  background-color: #F9F9F9;
+  border: none;
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.counter__button {
+  font-family: inherit;
+  position: absolute;
+  top: 0;
+
+  font-size: 16px;
+  line-height: 21px;
+  color: #CAC6DA;
+
+  padding: 12px 17px;
+
+  background-color: #F9F9F9;
+  border: none;
+  cursor: pointer;
+
+  &:first-child {
+    left: 0;
+  }
+
+  &:last-child {
+    right: 0;
+  }
+
+  &:not(:disabled) {
+    &:hover,
+    &:focus-visible {
+      color: #aca8b9;
+      background-color: #dcdcdc;
+    }
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}

@@ -1,0 +1,84 @@
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  padding: 16px 32px;
+
+  border: none;
+  border-radius: 0;
+
+  cursor: pointer;
+  user-select: none;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}
+
+.default {
+  background-color: #2A254B;
+  color: #FFFFFF;
+
+  &:not(:disabled) {
+    &:hover,
+    &:focus-visible {
+      background-color: #1E193E;
+    }
+
+    &:active {
+      background: linear-gradient(0deg, #2A254B, #2A254B), linear-gradient(0deg, #4E4D93, #4E4D93);
+    }
+  }
+}
+
+.white {
+  background-color: #FFFFFF;
+  color: #2A254B;
+
+  &:not(:disabled) {
+    &:hover,
+    &:focus-visible {
+      background-color: #ebeaea;
+    }
+
+    &:active {
+      background-color: #FFFFFF;
+      opacity: 0.7;
+    }
+  }
+}
+
+.grey {
+  background-color: #F9F9F926;
+  color: #FFFFFF;
+
+  &:not(:disabled) {
+    &:hover,
+    &:focus-visible {
+      background-color: #F9F9F94D;
+    }
+
+    &:active {
+      background-color: #F9F9F926;
+    }
+  }
+}
+
+.light-grey {
+  background-color: #F9F9F9;
+  color: #2A254B;
+
+  &:not(:disabled) {
+    &:hover,
+    &:focus-visible {
+      background-color: #dcd8d84d;
+    }
+
+    &:active {
+      background-color: #cdcccc26;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.visually-hidden-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+  &:focus-visible ~ * {
+    outline: 1px solid #000000;
+  }
+
+  &:checked {
+    & + .checkbox {
+      &::before {
+        background-color: #4E4D93;
+        background-image: url("src/assets/check.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid #4E4D93;
+        transition: background-color 200ms;
+      }
+    }
+  }
+
+  &:not(:checked) {
+    & + .checkbox {
+      &:hover {
+        &::before {
+          border: 1px solid #4E4D93;
+          transition: background-color 200ms;
+        }
+      }
+    }
+  }
+}
+
+.checkbox {
+  position: relative;
+
+  line-height: 24px;
+  color: #2A254B;
+
+  padding: 0 0 0 29px;
+  cursor: pointer;
+
+  &::before {
+    position: absolute;
+    top: 4px;
+    left: 0;
+
+    width: 14px;
+    height: 14px;
+
+    background-color: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+
+    content: "";
+  }
+}

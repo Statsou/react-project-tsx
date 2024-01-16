@@ -37,5 +37,6 @@ If you are developing a production application, we recommend updating the config
 - Checkbox list
 - filters
 - Cart
+- catalog slider
 
 ### Вся разработка ведётся в директории `src`
